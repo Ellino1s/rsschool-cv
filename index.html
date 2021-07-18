@@ -21,10 +21,10 @@
         <aside class="sidebar">
             <div class="sight-bar-container">
 
-                <img class="my-photo" src="./img/Elina Sotska.jpg" alt="My photo">
+                <img class="my-photo" src="./img/Elina_Sotska.jpg" alt="My photo">
 
                 <!--Contacts container-->
-                <div class="contacts-container">
+                <section class="contacts-container">
                     <h3 class="contacts-title">Contacts</h3>
                     <div>
                         <span class="contacts-link-type"><i class="icon fas fa-phone-square"></i></span>
@@ -48,11 +48,11 @@
 
                         <a class="contacts-link" href="https://www.linkedin.com/in/elina-sotska/"></a>
                     </div>
-                </div>
+                </section>
 
 
                 <!--Tech skills container-->
-                <div class="tech-skills-container">
+                <section class="tech-skills-container">
                     <h3 class="tech-skill-title">Tech Skills</h3>
                     <ul>
                         <li class="tech-skills-item"><span class="tech-skills-text">HTML5</span></li>
@@ -63,10 +63,10 @@
                         <li class="tech-skills-item"><span class="tech-skills-text">GIT</span></li>
                     </ul>
 
-                </div>
+                </section>
 
                 <!--Soft skills container-->
-                <div class="soft-skills-container">
+                <section class="soft-skills-container">
                     <h3 class="soft-skills-title">Soft Skills</h3>
                     <ul>
                         <li class="soft-skills-item"><span class="soft-skills-text">FAST-LEARNING</span></li>
@@ -75,25 +75,25 @@
                         <li class="soft-skills-item"><span class="soft-skills-text">CREATIVE</span></li>
                         <li class="soft-skills-item"><span class="soft-skills-text">TEAM WORKER</span></li>
                     </ul>
-                </div>
+                </section>
 
                 <!--Languages container-->
-                <div class="languages-container">
+                <section class="languages-container">
                     <h3 class="soft-skills-title">Languages</h3>
                     <ul>
                         <li class="soft-skills-item"><span class="soft-skills-text">ENGLISH B2</span></li>
                         <li class="soft-skills-item"><span class="soft-skills-text">CZECH A2</span></li>
                     </ul>
-                </div>
+                </section>
             </div>
         </aside>
         <!--about me container-->
         <div class="about-me-container">
             <!--about me main info-->
-            <div class="info-container">
+            <header class="info-container">
                 <h2 class="profession">Frontend developer</h2>
                 <h1 class="name">Elina Sotska</h1>
-            </div>
+            </header>
 
             <p class="discription">Self-taught front-end developer with a bunch of strong soft skills. Knowledgeable in
                 user interface . Currently working
@@ -131,7 +131,7 @@
                 <pre>
                     <code>
 function firstNonConsecutive(arr) { 
-for (let i = 0; i < arr.length - 1; i++) { 
+for (let i=0; i &lt; arr.length - 1; i++) { 
 if (arr[i] + 1 !==arr[i + 1]) { 
 return arr[i + 1]; 
 } 

@@ -26,3 +26,10 @@ function firstNonConsecutive(arr) {
   return null;
 }
 ```
+
+##Personal progects
+
+Web-sites I made from the scratch:
+
+_[Weather app (HTML, CSS, JavaScript)] (https://github.com/Ellino1s/Vanilla-JS-WeatherApp)
+_[Dictionary app (React)] (https://github.com/Ellino1s/Dictionary-App)

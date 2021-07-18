@@ -5,16 +5,17 @@
 Self-taught front-end developer with a bunch of strong soft skills. Knowledgeable in user interface . Currently working on my own projects, continue developing skills in Java Script and React. Able to effectively self-manage during independent projects, as well as collaborate in a team setting.
 
 ##Skills and Competencies
-*HTML5
-*CSS
-*JavaScript
-*React
-*API
-*GIT
 
-##An example of solving a problem with Codewars
+- HTML5
+- CSS
+- JavaScript
+- React
+- API
+- GIT
 
-###Find the first non-consecutive number
+## An example of solving a problem with Codewars
+
+### Find the first non-consecutive number
 
 ```javascript
 function firstNonConsecutive(arr) {
@@ -27,9 +28,22 @@ function firstNonConsecutive(arr) {
 }
 ```
 
-##Personal progects
+## Personal progects
 
 Web-sites I made from the scratch:
 
-_[Weather app (HTML, CSS, JavaScript)] (https://github.com/Ellino1s/Vanilla-JS-WeatherApp)
-_[Dictionary app (React)] (https://github.com/Ellino1s/Dictionary-App)
+- [Weather app (HTML, CSS, JavaScript)] (https://github.com/Ellino1s/Vanilla-JS-WeatherApp)
+- [Dictionary app (React)] (https://github.com/Ellino1s/Dictionary-App)
+
+## Education
+
+**Moscow State University of Economics, Statistics and Informatics**
+_Finance and Credit Faculty, Bachelor Degree_
+2006 – 2009 | MOSCOW, RUSSIA
+
+**SheCodes Workshops**
+_Frontend development_
+Spring 2021 | online
+
+**Udemy Web development bootcamp 2021**
+Winter 2020 | online

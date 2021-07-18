@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
         integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
     </style>
@@ -19,32 +20,33 @@
     <div class="wrapper">
         <aside class="sidebar">
             <div class="sight-bar-container">
+
                 <img class="my-photo" src="./img/Elina Sotska.jpg" alt="My photo">
 
                 <!--Contacts container-->
                 <div class="contacts-container">
                     <h3 class="contacts-title">Contacts</h3>
                     <div>
-                        <span class="contacts-link-type"><i class="fas fa-phone-square"></i></span>
+                        <span class="contacts-link-type"><i class="icon fas fa-phone-square"></i></span>
                         <a class="contacts-link" href="tel:+420778001898">+420778001898</a>
                     </div>
                     <div>
-                        <span class="contacts-link-type"><i class="fas fa-envelope-square"></i></span>
+                        <span class="contacts-link-type"><i class="icon fas fa-envelope-square"></i></span>
                         <a class="contacts-link" href="mailto:elinasockaya@gmail.com">elinasockaya@gmail.com</a>
                     </div>
                     <div>
-                        <span class="contacts-link-type"><i class="fab fa-discord"></i></span>
+                        <span class="contacts-link-type"><i class="icon fab fa-discord"></i></span>
                         <a class="contacts-link" href="">Elina Sotska(@Ellino1s)</a>
                     </div>
                     <div>
 
                         <a class="contacts-link" href="https://github.com/Ellino1s"><i
-                                class="fab fa-github-square"></i></a>
+                                class="icon fab fa-github-square"></i></a>
                     </div>
                     <div>
 
                         <a class="contacts-link" href="https://www.linkedin.com/in/elina-sotska/"><i
-                                class="fab fa-linkedin"></i></a>
+                                class="icon fab fa-linkedin"></i></a>
                     </div>
                     <div>
 
@@ -132,13 +134,14 @@
                 <p>Task: Find the first non-consecutive number</p>
                 <pre>
                     <code>
-                     function firstNonConsecutive(arr) {
-                     for (let i = 0; i < arr.length - 1; i++) { 
-                        if (arr[i] + 1 !==arr[i + 1]) { 
-                        return arr[i + 1]; 
-                        } 
-                    } return null; 
-                }</code>
+function firstNonConsecutive(arr) { 
+for (let i = 0; i < arr.length - 1; i++) { 
+if (arr[i] + 1 !==arr[i + 1]) { 
+return arr[i + 1]; 
+} 
+} return null;
+}
+                </code>
                 </pre>
 
             </div>

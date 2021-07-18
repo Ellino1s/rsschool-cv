@@ -47,3 +47,8 @@ Spring 2021 | online
 
 **Udemy Web development bootcamp 2021**
 Winter 2020 | online
+
+## Languages
+
+- English B2
+- Czech A2
